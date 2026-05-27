@@ -16,3 +16,9 @@ The Tableau workbook (Olympics_Dashboard.twbx) contains six charts and four KPI 
 The workbook was built sequentially across our group of three after collectively brainstorming a simple wireframe / narrative, each opening the prior version's .twbx from a shared Google Drive folder and adding their assigned charts before saving as the next version. The packaged workbook format bundles the CSV data inside, so no separate file management was required. Known limitations include: 1,733 rows tagged as 1906 dropped; 790 unrecognized Tableau location entries representing historical vessel and team names excluded from the map only; and a few athlete names left uncorrected pending manual verification against the original Kaggle source. For athletes listed in Chart 4, manual cleaning was performed using to ensure that misspellings were rectified and athletes with no known identity (e.g., John Jr.) were removed. We also found that removing 1-2 annotations was conducive to minimizing visual clutter within the final dashboard.
 
 This project was completed with assistance from generative AI. We leveraged ChatGPT to clean / troubleshoot our Python code, validate our proposed structure / plan for each chart, and generate suggestions for chart design. All analytical decisions, chart design choices, and Tableau configurations were made and executed by the team. Finally, the AI tool explained the rationale for aesthetic design suggestions, navigated Mac-specific Tableau mechanics encountered during the build, and helped troubleshoot data discrepancies; it did not generate the workbook, run code, make independent analytical decisions, or "storyboard" the narrative in our dashboard.
+
+Materials included in this repo are as follows:
+
+1. Jupyter notebook used to clean the raw data
+2. Cleaned csv.zip folder
+3. Tableau twbx file
